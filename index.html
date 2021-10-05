@@ -1,140 +1,72 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
   <meta charset="utf-8">
-  <title>✈Charlie's Personal Site</title>
+  <title>Charlie Andrews</title>
   <link rel="stylesheet" href="css/styles.css">
-  <!-- Code from Google Fonts -->
-  <!-- Don't know if I need these lines?   -->
+  <link rel="icon" href="images/favicon.ico"> <!-- Get a favicon from favicon.cc -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Explora&display=swap" rel="stylesheet">
-  <!-- Here's some internal CSS.
-  <style media="screen">
-
-  body {
-  background-color:#F3F1F5;
-}
-
-hr {
-border-style: dotted none none none;
-border-radius: 0%; /*Need this to stop the dots being chopped in half!! */
-border-width: 7px;
-border-color: #7F7C82;
-height: 0px;
-width: 60px;
-}
-
-</style>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
 </head>
--->
 
 <body>
-  <!-- <img src="https://pbs.twimg.com/profile_images/2817039602/028ef31163bd864d2c74e1a03482381e_400x400.jpeg" alt="Charlie Andrews, Pilot"> -->
-  <table cellspacing="10">
-    <td>
-      <img class="profilePic" src="images\028ef31163bd864d2c74e1a03482381e_400x400.jpeg" alt="Charlie Andrews, Pilot" width=200>
-    </td>
-    <td>
-      <h1>Charlie Andrews</h1>
-      <p><em>Pilot <strong>and </strong>Programmer</em></p>
-      <p>An experienced and professional airline <a href="https://en.wikipedia.org/wiki/Aircraft_pilot">pilot</a>, with thousands of logged hours on the Boeing 747-400/-8 and Fokker 50.</p>
-    </td>
-  </table>
-  <hr size=3 noshade>
-  <h3>Education</h3>
-  <ul>
-    <li>St Catherine's First School</li>
-    <li>Some others</li>
-    <li>Queen Elizabeth's Secondary School</li>
-    <li>University of Liverpool</li>
-  </ul>
-  <hr size=3 noshade>
 
-  <h3>Work Experience</h3>
-  <table>
-    <tr>
-      <td>1997-2002</td>
-      <td>Royal Navy</td>
-    </tr>
-    <tr>
-      <td>2006-2009</td>
-      <td>VLM Airlines</td>
-    </tr>
-    <tr>
-      <td>2011-2013</td>
-      <td>Air Astana</td>
-    </tr>
-  </table>
-  <hr size=3 noshade>
+  <div class="top-container">
+    <img class="topCloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Charlie.</h1>
+    <h2>a programmer.</h2>
+    <img class="bottomCloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container" id="middle-container">
 
-  <a href="hobbies.html">My Hobbies</a>
-  <br>
-  <a href="contact.html">Contact details</a>
-  <hr>
+  </div>
 
-  <h3>Skills</h3>
-  <!--
-  <table cellspacing = 10>
-  <colgroup span=4></colgroup>
-  <tbody>
-  <tr>
-  <td>Android App Development</td>
-  <td>★★★★★</td>
-  <td>General Piloting</td>
-  <td>★★★★★</td>
-</tr>
-<tr>
-<td>Robot-building</td>
-<td>★★★</td>
-<td>Can Fly</td>
-<td>★★★★★</td>
-</tr>
-</tbody>
-</table>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="avatar" src="images/AvatarMakerAvatar.svg" alt="charlie-img">
+      <h2>Hello.</h2>
+      <p>I am a web developer, coder and pilot. I like strolling up hills, tennis and video games.</p>
+    </div>
 
---!>
+    <hr>
 
-<!-- Nested table solution!! -->
-<table>
-  <tr>
-    <td>
-      <table>
-        <tbody>
-          <tr>
-            <td>Android App Development</td>
-            <td>★★★★★</td>
-          </tr>
-          <tr>
-            <td>Robot-building</td>
-            <td>★★★</td>
-          </tr>
-        </tbody>
-      </table>
-    </td>
-    <td>
-      <table>
-        <tbody>
-          <tr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skill-img-1" src="images/airplane.png" alt="Aeroplane image">
+        <h3 class="skill-hdg">Flying things</h3>
+        <p class="skill-para">Since gaining my Commercial Pilot's Licence in 2003, I have racked up around 8,000 hours in aircraft including the Fokker 50 and the giant Boeing 747. Turns out, being able to fly stuff isn't <em>that</em> useful a skill during a pandemic. Who knew? That's why I decided to branch out a bit.</p>
+      </div>
 
-            <td>General Piloting</td>
-            <td>★★★★★</td>
-          </tr>
-          <tr>
+      <div class="skill-row">
+        <img class="skill-img-2" src="images/seo.png" alt="Computer img">
+        <h3 class="skill-hdg">Programming</h3>
+        <p class="skill-para">As a keen computerist since around the time Sir Clive Sinclair brought the ZX Spectrum to market, I have literally decades of experience as a programmer. From BASIC, Pascal, FORTRAN 77, Java, Android, HTML, CSS and more... coding is kind of my thing.</p>
+      </div>
+    </div>
 
-            <td>Can Fly</td>
-            <td>★★★★★</td>
-          </tr>
+    <hr>
 
-        </tbody>
-      </table>
-    </td>
-  </tr>
-</table>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Can I help you?</h3>
+      <p>Perhaps I could make a neat new website (like this one!) for your business. Or perhaps you'd just like one for yourself? Prices are lower than you might think, and you can have a new site in just a few days.</p>
+      <a class="btn" href="mailto:info@sereneskysoftware.com">CONTACT ME</a>
+    </div>
+  </div>
 
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/charlie-andrews-8715bb25">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/SoftwareSerene">Twitter</a>
+    <a class="footer-link" href="https://www.sereneskysoftware.com">Website</a>
+
+    <div class="extern-copyright">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    <div class="extern-copyright">Icons made by <a href="" title="Nhor Phai">Nhor Phai</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+    <p class="copyright">© 2021 Charles Andrews.</p>
+
+  </div>
 </body>
-
-
 </html>
