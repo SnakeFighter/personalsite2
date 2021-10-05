@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>✈Charlie's Personal Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Code from Google Fonts -->
+  <!-- Don't know if I need these lines?   -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Explora&display=swap" rel="stylesheet">
+  <!-- Here's some internal CSS.
+  <style media="screen">
+
+  body {
+  background-color:#F3F1F5;
+}
+
+hr {
+border-style: dotted none none none;
+border-radius: 0%; /*Need this to stop the dots being chopped in half!! */
+border-width: 7px;
+border-color: #7F7C82;
+height: 0px;
+width: 60px;
+}
+
+</style>
+</head>
+-->
+
+<body>
+  <!-- <img src="https://pbs.twimg.com/profile_images/2817039602/028ef31163bd864d2c74e1a03482381e_400x400.jpeg" alt="Charlie Andrews, Pilot"> -->
+  <table cellspacing="10">
+    <td>
+      <img class="profilePic" src="images\028ef31163bd864d2c74e1a03482381e_400x400.jpeg" alt="Charlie Andrews, Pilot" width=200>
+    </td>
+    <td>
+      <h1>Charlie Andrews</h1>
+      <p><em>Pilot <strong>and </strong>Programmer</em></p>
+      <p>An experienced and professional airline <a href="https://en.wikipedia.org/wiki/Aircraft_pilot">pilot</a>, with thousands of logged hours on the Boeing 747-400/-8 and Fokker 50.</p>
+    </td>
+  </table>
+  <hr size=3 noshade>
+  <h3>Education</h3>
+  <ul>
+    <li>St Catherine's First School</li>
+    <li>Some others</li>
+    <li>Queen Elizabeth's Secondary School</li>
+    <li>University of Liverpool</li>
+  </ul>
+  <hr size=3 noshade>
+
+  <h3>Work Experience</h3>
+  <table>
+    <tr>
+      <td>1997-2002</td>
+      <td>Royal Navy</td>
+    </tr>
+    <tr>
+      <td>2006-2009</td>
+      <td>VLM Airlines</td>
+    </tr>
+    <tr>
+      <td>2011-2013</td>
+      <td>Air Astana</td>
+    </tr>
+  </table>
+  <hr size=3 noshade>
+
+  <a href="hobbies.html">My Hobbies</a>
+  <br>
+  <a href="contact.html">Contact details</a>
+  <hr>
+
+  <h3>Skills</h3>
+  <!--
+  <table cellspacing = 10>
+  <colgroup span=4></colgroup>
+  <tbody>
+  <tr>
+  <td>Android App Development</td>
+  <td>★★★★★</td>
+  <td>General Piloting</td>
+  <td>★★★★★</td>
+</tr>
+<tr>
+<td>Robot-building</td>
+<td>★★★</td>
+<td>Can Fly</td>
+<td>★★★★★</td>
+</tr>
+</tbody>
+</table>
+
+--!>
+
+<!-- Nested table solution!! -->
+<table>
+  <tr>
+    <td>
+      <table>
+        <tbody>
+          <tr>
+            <td>Android App Development</td>
+            <td>★★★★★</td>
+          </tr>
+          <tr>
+            <td>Robot-building</td>
+            <td>★★★</td>
+          </tr>
+        </tbody>
+      </table>
+    </td>
+    <td>
+      <table>
+        <tbody>
+          <tr>
+
+            <td>General Piloting</td>
+            <td>★★★★★</td>
+          </tr>
+          <tr>
+
+            <td>Can Fly</td>
+            <td>★★★★★</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+
+</html>

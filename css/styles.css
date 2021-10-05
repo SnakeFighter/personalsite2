@@ -1,0 +1,30 @@
+body {
+  background-color:#E6E6E6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+  border-color: #5C7AEA;
+  border-radius: 0; /*Need this to stop the dots being chopped in half!! */
+  border-style: dotted none none none;
+  border-width: 7px;
+  height: 0;
+  width: 60px;
+}
+
+h1 {
+  color: #14279B;
+  /** Some code for the Google Explora font! **/
+  font-family: 'Explora', cursive;
+  font-size: 48px;
+  font-style: normal;
+
+}
+
+h3 {
+  color: #14279B;
+}
+
+.profilePic {
+  border-radius: 100%;
+}
